@@ -1,0 +1,167 @@
+body {
+    background-image: url('C:/Users/KING STORMS OFFICAL/Music/StreamTFH/images/BACGROWND.jpeg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover; /* This will make the image cover the entire background */
+    background-repeat: no-repeat;
+}
+.search-bar {
+	position: obsolute; 
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#search-button {
+    background-color: #C69E00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #f00003;
+}
+.start-streaming-button {
+    background-color: #C69E00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.start-streaming-button:hover {
+    background-color: #f00003;
+}
+.nav-link-container {
+    background-color: #007bff; /* Background color for the container */
+    color: white; /* Text color */
+    padding: 10px; /* Padding around the links */
+    border-radius: 5px; /* Rounded corners */
+    margin-right: 10px; /* Spacing between containers */
+    display: inline-block; /* To make containers inline */
+	
+}
+
+.nav-link-container a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color for links */
+}
+.nav-link-container:hover {
+    background-color: #f00003; {
+}
+/* Dark overlay */
+.dark-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the last value (0.5) for opacity */
+    z-index: 1; /* Place it on top of other content */
+}
+.white-text {
+    color: white;
+		}	
+.left-align {
+            /* Use either 'float' or 'text-align' depending on your content */
+            float: left;
+            /* text-align: left; */
+        }
+}
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust to control spacing between columns */
+}
+
+.movie-item {
+    width: calc(25% - 20px); /* Adjust to set the desired column width and spacing */
+    margin: 10px; /* Adjust for spacing between items */
+}
+
+.movie-item img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.movie-cover:hover {
+            opacity: 0.3;
+}
+/* Button styles */
+.movie-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.movie-buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.movie-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* 5-Star Rating System Styles */
+.rating {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rating .star {
+    font-size: 24px;
+    color: #f1c40f; /* Default star color */
+    cursor: pointer;
+}
+
+.rating .star.active {
+    color: #f39c12; /* Active star color */
+}
+/* Button styles */
+.movie-buttons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.movie-buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.movie-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* 5-Star Rating System Styles */
+.rating {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rating .star {
+    font-size: 24px;
+    color: #f1c40f; /* Default star color */
+    cursor: pointer;
+}
+
+.rating .star.active {
+    color: #f39c12; /* Active star color */
+}
